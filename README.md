@@ -128,6 +128,31 @@ Sistema de gestión de gimnasio con interfaz web moderna:
 
 ---
 
+### Módulo 18: Sistema de Tareas con JavaFX y Spring Boot
+**Repositorio:** [sistema-tareas-javafx-springboot](https://github.com/Andonys24/sistema-tareas-javafx-springboot)
+
+Sistema de gestión de tareas con interfaz gráfica JavaFX:
+- Aplicación de escritorio con Spring Boot integrado
+- JavaFX 24.0.1 para interfaz gráfica moderna
+- Diseño de UI con FXML (XML declarativo)
+- Integración JavaFX + Spring mediante ControllerFactory
+- TableView para gestión de tareas
+- Formulario con TextField para entrada de datos
+- Spring Data JPA para persistencia de datos
+- Arquitectura en capas: Model, Repository, Service, Presentation, Controller
+- Operaciones CRUD completas desde interfaz gráfica
+- Alertas y mensajes de confirmación
+- Estilos CSS personalizables
+- Selección de filas para cargar y editar
+- Validación de campos obligatorios
+- MySQL con Hibernate (ddl-auto=update)
+
+**Tecnologías:** Java 24, Spring Boot 4.0.0, JavaFX 24.0.1, Spring Data JPA, MySQL 8.0+, Maven, Lombok
+
+**Nota importante:** Este proyecto requiere IntelliJ IDEA para ejecutarse correctamente debido a la integración de JavaFX con Spring Boot. En Visual Studio Code pueden presentarse errores de configuración.
+
+---
+
 ## 🎯 Cómo usar este repositorio
 
 1. Cada módulo tiene su propio repositorio independiente.
