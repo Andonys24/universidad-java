@@ -50,6 +50,84 @@ Domina el manejo de archivos y persistencia de datos:
 
 ---
 
+### Módulo 14: Conexión con MySQL - Zona Fit JDBC
+**Repositorio:** [zona-fit-jdbc-base](https://github.com/Andonys24/zona-fit-jdbc-base)
+
+Sistema de gestión de gimnasio con Java y MySQL:
+- Conexión a base de datos MySQL con JDBC
+- Implementación del patrón DAO (Data Access Object)
+- Operaciones CRUD completas (Create, Read, Update, Delete)
+- Uso de PreparedStatement para prevenir SQL Injection
+- Gestión de variables de entorno con java-dotenv
+- Manejo robusto de excepciones SQL
+- Separación por capas: Conexión, Datos, Dominio, Presentación
+- Validación de entrada del usuario
+- Menú interactivo de consola
+
+**Tecnologías:** Java 21, MySQL 8.0+, Maven, JDBC
+
+---
+
+### Módulo 15: Zona Fit con Spring Boot y JPA
+**Repositorio:** [zona-fit-spring-boot](https://github.com/Andonys24/zona-fit-spring-boot)
+
+Sistema de gestión de gimnasio con Spring Boot y MySQL:
+- Framework Spring Boot para desarrollo ágil
+- Spring Data JPA para acceso a datos automático
+- Hibernate como ORM (Object-Relational Mapping)
+- Arquitectura en capas: Model, Repository, Service, Presentation
+- Inyección de dependencias automática
+- Gestión automática de transacciones
+- Uso de Lombok para reducir boilerplate
+- CommandLineRunner para aplicación de consola
+- Logging con SLF4J + Logback
+
+**Tecnologías:** Java 21, Spring Boot 3.4.5, Spring Data JPA, MySQL 8.0+, Maven, Lombok
+
+---
+
+### Módulo 16: Zona Fit con GUI Swing
+**Repositorio:** [zona-fit-interfaz-swing](https://github.com/Andonys24/zona-fit-interfaz-swing)
+
+Sistema de gestión de gimnasio con interfaz gráfica Swing:
+- Interfaz gráfica moderna con Swing
+- Modo oscuro automático con FlatLaf
+- Spring Boot integrado con GUI de escritorio
+- Spring Data JPA para persistencia de datos
+- Arquitectura en capas: Model, Repository, Service, GUI
+- Tabla de clientes con funcionalidad interactiva
+- Formulario Swing con validación
+- Operaciones CRUD desde interfaz gráfica
+- Eventos y listeners en componentes Swing
+- Integración con MySQL
+
+**Tecnologías:** Java 21, Spring Boot 3.5.5, Spring Data JPA, Swing, FlatLaf, MySQL 8.0+, Maven, Lombok, IntelliJ IDEA
+
+**Nota importante:** Este proyecto utiliza archivos `.form` de IntelliJ IDEA y requiere esta IDE para funcionar correctamente.
+
+---
+
+### Módulo 17: Zona Fit con Interfaz Web (JSF/Spring Boot)
+**Repositorio:** [zona-fit-interfaz-web-basica](https://github.com/Andonys24/zona-fit-interfaz-web-basica)
+
+Sistema de gestión de gimnasio con interfaz web moderna:
+- Aplicación web con Spring Boot integrado
+- JSF (Jakarta Faces) con PrimeFaces para componentes UI
+- Interfaz web moderna y responsive con PrimeFlex
+- DataTable dinámico para gestión de clientes
+- Modales para agregar y editar clientes
+- Confirmación de acciones con ConfirmDialog
+- Mensajes de notificación con Growl
+- Spring Data JPA para persistencia de datos
+- Arquitectura en capas: Model, Repository, Service, Controller (JSF)
+- AJAX automático en componentes PrimeFaces
+- Tema oscuro Vela de PrimeFaces
+- Acceso desde navegador web en localhost:8080/index.xhtml
+
+**Tecnologías:** Java 21, Spring Boot 3.5.5, JSF, PrimeFaces 13+, JoinFaces, PrimeFlex, Spring Data JPA, MySQL 8.0+, Maven, Lombok
+
+---
+
 ## 🎯 Cómo usar este repositorio
 
 1. Cada módulo tiene su propio repositorio independiente.
@@ -65,15 +143,6 @@ Domina el manejo de archivos y persistencia de datos:
 - **Lenguaje:** Java JDK 8+
 - **IDE recomendado:** Visual Studio Code
 - **Extensiones VS Code:** Extension Pack for Java
-
-## 🚀 Próximos Módulos
-
-Los siguientes módulos están en desarrollo:
-- Módulo 14: Conexión con MySQL
-- Módulo 15: Spring y Spring Boot
-- Módulo 16: GUI con Swing
-- Módulo 17: Web con Swing
-- Módulo 18: Sistema de Tareas con JavaFX
 
 ## 🤝 Contribuciones y Aclaraciones
 
