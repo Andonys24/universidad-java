@@ -153,6 +153,19 @@ Sistema de gestión de tareas con interfaz gráfica JavaFX:
 
 ---
 
+### Módulo 19: Sistema de Empleados con JSP y Spring Boot
+**Repositorio:** [sistema-empleados](https://github.com/Andonys24/sistema-empleados)
+
+Sistema web CRUD de empleados con Spring Boot, JSP/JSTL y MySQL:
+- Spring MVC con controladores y vistas JSP (Bootstrap 5).
+- Spring Data JPA + Hibernate para persistencia.
+- Operaciones: listar, agregar, editar y eliminar empleados con validación de datos.
+- Plantillas JSP reutilizables (navegación, pie y base) y formateo de sueldos.
+
+**Tecnologías:** Java 25, Spring Boot 4.0.0, JSP/JSTL, MySQL 8.0+, Maven, Lombok, Bootstrap 5.3.8
+
+---
+
 ## 🎯 Cómo usar este repositorio
 
 1. Cada módulo tiene su propio repositorio independiente.
